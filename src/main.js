@@ -8,6 +8,10 @@ import '@fortawesome/fontawesome-free/css/all.css'
 
 import 'animate.css/animate.css'
 
+// ApexChart
+import VueApexCharts from 'vue-apexcharts'
+Vue.component('apexchart', VueApexCharts)
+
 Vue.config.productionTip = false
 
 new Vue({

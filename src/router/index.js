@@ -22,6 +22,11 @@ Vue.use(VueRouter)
     path: '/vuetify',
     name: 'Vuetify',
     component: () => import(/* webpackChunkName: "vuetify" */ '../views/Vuetify')
+  },
+  {
+    path: '/apexcharts',
+    name: 'Apexcharts',
+    component: () => import(/* webpackChunkName: "apexchart" */ '../views/ApexCharts')
   }
 
 
